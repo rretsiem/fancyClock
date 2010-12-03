@@ -1,0 +1,9 @@
+{
+	"id": "com.codingbees.fancyclock",
+	"version": "1.0.0",
+	"vendor": "The CodingBees",
+	"type": "web",
+	"main": "index.html",
+	"title": "FancyClock",
+	"icon": "icon.png"
+}

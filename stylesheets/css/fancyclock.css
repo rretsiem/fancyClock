@@ -1,0 +1,16 @@
+#body{color:#dddddd;background-color:#252525;}
+#fancyClock{margin:80px auto;height:150px;width:450px;}
+.clock{background-color:#252525;height:150px;width:150px;position:relative;overflow:hidden;float:left;}
+.clock .rotate{position:absolute;width:150px;height:150px;top:0;left:0;}
+.rotate.right{display:none;z-index:11;}
+.clock .bg,.clock .front{width:75px;height:150px;background-color:#252525;position:absolute;top:0;}
+.clock .display{position:absolute;width:150px;z-index:20;color:#F5F5F5;font-size:45px;text-align:center;top:45px;left:0;text-shadow:4px 4px 5px #333333;}
+.clock .bg.left{left:0;}
+.orange .bg.left{background:url(../images/bg_orange.png) no-repeat left top;}
+.green .bg.left{background:url(../images/bg_green.png) no-repeat left top;}
+.blue .bg.left{background:url(../images/bg_blue.png) no-repeat left top;}
+.clock .bg.right{left:75px;}
+.orange .bg.right{background:url(../images/bg_orange.png) no-repeat right top;}
+.green .bg.right{background:url(../images/bg_green.png) no-repeat right top;}
+.blue .bg.right{background:url(../images/bg_blue.png) no-repeat right top;}
+.clock .front.left{left:0;z-index:10;}
